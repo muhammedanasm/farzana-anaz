@@ -1005,7 +1005,7 @@
                         arabicName: "أنز",
                         role: "The Groom",
                         side: "right",
-                        image: "/images/groom.jpg",
+                        image: "/images/groom.JPG",
                       }),
                     }),
                   ],
