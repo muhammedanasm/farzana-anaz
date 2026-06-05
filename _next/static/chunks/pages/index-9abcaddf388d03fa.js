@@ -46,8 +46,8 @@
               title: "Nikah Ceremony",
               arabic: "النكاح",
               date: "Sunday, July 12, 2026",
-              time: "7:00 PM",
-              place: "Al-Noor Grand Mosque",
+              time: "5:00 PM",
+              place: "Yamuna Castle Auditorium, Perinjanam",
               description:
                 "A sacred bond witnessed in the house of Allah, with our closest family.",
             },
@@ -55,8 +55,8 @@
               title: "Walima Reception",
               arabic: "الوليمة",
               date: "Sunday, July 12, 2026",
-              time: "4:00 PM – 11:00 PM",
-              place: "Al-Noor Banquet Hall",
+              time: "5:00 PM – 8:00 PM",
+              place: "Yamuna Castle Auditorium, Perinjanam",
               description:
                 "A celebration of love, family, and the journey ahead — dinner & blessings.",
             },
@@ -992,7 +992,7 @@
                         arabicName: "فرزانة",
                         role: "The Bride",
                         side: "left",
-                        image: "/images/bride.png",
+                        image: "./images/bride.png",
                       }),
                     }),
                     (0, i.jsx)(k.ZP, {
@@ -2058,7 +2058,7 @@
             .concat(c.D.warmGray, " 0%, ")
             .concat(c.D.softBrown, " 100%)"),
           label: "Moments",
-          image: "/images/album-1.jpg",
+          image: "./images/moments.JPG",
         },
         {
           gradient: "linear-gradient(160deg, "
@@ -2072,7 +2072,7 @@
             .concat(c.D.softBrown, " 0%, ")
             .concat(c.D.deepBrown, " 100%)"),
           label: "Promises",
-          image: "/images/album-3.jpg",
+          image: "./images/album-5.jpg",
         },
         {
           gradient: "linear-gradient(160deg, "
@@ -2086,14 +2086,14 @@
             .concat(c.D.warmGray, " 0%, ")
             .concat(c.D.rose, " 100%)"),
           label: "Family",
-          image: "/images/album-5.jpg",
+          image: "./images/family.JPG",
         },
         {
           gradient: "linear-gradient(135deg, "
             .concat(c.D.deepBrown, " 0%, ")
             .concat(c.D.softBrown, " 80%)"),
           label: "Du’a",
-          image: "/images/album-6.jpg",
+          image: "./images/dua.JPG",
         },
       ];
       function K(e) {
