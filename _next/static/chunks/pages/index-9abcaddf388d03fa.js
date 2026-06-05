@@ -27,7 +27,7 @@
       let d = {
           date: "2026-07-12T16:00:00+05:30",
           dayMonthYear: { day: "12", month: "July", year: "2026" },
-          time: "4:00 PM onwards",
+          time: "5:00 PM onwards",
           bride: {
             name: "Farzana",
             arabicName: "فرزانة",
