@@ -25,43 +25,43 @@
         l = n(5943),
         c = n(102);
       let d = {
-        date: "2026-07-12T16:00:00+05:30",
-        dayMonthYear: { day: "12", month: "July", year: "2026" },
-        time: "4:00 PM onwards",
-        bride: {
-          name: "Farzana",
-          arabicName: "فرزانة",
-        },
-        groom: {
-          name: "Anaz",
-          arabicName: "أنس",
-        },
-        venue: {
-          name: "Al-Noor Banquet Hall",
-          address: "Down Hill, Malappuram, Kerala, India",
-          mapsQuery: "Malappuram,+Kerala,+India",
-        },
-        events: [
-          {
-            title: "Nikah Ceremony",
-            arabic: "النكاح",
-            date: "Sunday, July 12, 2026",
-            time: "7:00 PM",
-            place: "Al-Noor Grand Mosque",
-            description:
-              "A sacred bond witnessed in the house of Allah, with our closest family.",
+          date: "2026-07-12T16:00:00+05:30",
+          dayMonthYear: { day: "12", month: "July", year: "2026" },
+          time: "4:00 PM onwards",
+          bride: {
+            name: "Farzana",
+            arabicName: "فرزانة",
           },
-          {
-            title: "Walima Reception",
-            arabic: "الوليمة",
-            date: "Sunday, July 12, 2026",
-            time: "4:00 PM – 11:00 PM",
-            place: "Al-Noor Banquet Hall",
-            description:
-              "A celebration of love, family, and the journey ahead — dinner & blessings.",
+          groom: {
+            name: "Anaz",
+            arabicName: "أنس",
           },
-        ],
-      },
+          venue: {
+            name: "Al-Noor Banquet Hall",
+            address: "Down Hill, Malappuram, Kerala, India",
+            mapsQuery: "Malappuram,+Kerala,+India",
+          },
+          events: [
+            {
+              title: "Nikah Ceremony",
+              arabic: "النكاح",
+              date: "Sunday, July 12, 2026",
+              time: "7:00 PM",
+              place: "Al-Noor Grand Mosque",
+              description:
+                "A sacred bond witnessed in the house of Allah, with our closest family.",
+            },
+            {
+              title: "Walima Reception",
+              arabic: "الوليمة",
+              date: "Sunday, July 12, 2026",
+              time: "4:00 PM – 11:00 PM",
+              place: "Al-Noor Banquet Hall",
+              description:
+                "A celebration of love, family, and the journey ahead — dinner & blessings.",
+            },
+          ],
+        },
         x = [
           c.D.gold,
           c.D.goldDeep,
@@ -107,64 +107,64 @@
           };
         return "circle" === h
           ? (0, i.jsx)(a.Z, {
-            component: l.E.span,
-            ...y,
-            sx: {
-              position: "absolute",
-              width: c,
-              height: c,
-              borderRadius: "50%",
-              background: d,
-              boxShadow: "0 0 ".concat(0.6 * c, "px ").concat(d, "66"),
-            },
-          })
-          : "sparkle" === h
-            ? (0, i.jsx)(a.Z, {
               component: l.E.span,
               ...y,
               sx: {
                 position: "absolute",
-                width: 1.2 * c,
-                height: 1.2 * c,
-                color: d,
-                display: "inline-flex",
-                alignItems: "center",
-                justifyContent: "center",
+                width: c,
+                height: c,
+                borderRadius: "50%",
+                background: d,
+                boxShadow: "0 0 ".concat(0.6 * c, "px ").concat(d, "66"),
               },
-              children: (0, i.jsx)("svg", {
-                viewBox: "0 0 24 24",
-                width: "100%",
-                height: "100%",
-                fill: "currentColor",
-                children: (0, i.jsx)("path", {
-                  d: "M12 0 L13.6 9.2 L24 12 L13.6 14.8 L12 24 L10.4 14.8 L0 12 L10.4 9.2 Z",
-                }),
-              }),
             })
+          : "sparkle" === h
+            ? (0, i.jsx)(a.Z, {
+                component: l.E.span,
+                ...y,
+                sx: {
+                  position: "absolute",
+                  width: 1.2 * c,
+                  height: 1.2 * c,
+                  color: d,
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                },
+                children: (0, i.jsx)("svg", {
+                  viewBox: "0 0 24 24",
+                  width: "100%",
+                  height: "100%",
+                  fill: "currentColor",
+                  children: (0, i.jsx)("path", {
+                    d: "M12 0 L13.6 9.2 L24 12 L13.6 14.8 L12 24 L10.4 14.8 L0 12 L10.4 9.2 Z",
+                  }),
+                }),
+              })
             : "petal" === h
               ? (0, i.jsx)(a.Z, {
-                component: l.E.span,
-                ...y,
-                sx: {
-                  position: "absolute",
-                  width: 1.4 * c,
-                  height: 0.7 * c,
-                  background: d,
-                  borderRadius: "50% 50% 50% 50% / 60% 60% 40% 40%",
-                  opacity: 0.85,
-                },
-              })
+                  component: l.E.span,
+                  ...y,
+                  sx: {
+                    position: "absolute",
+                    width: 1.4 * c,
+                    height: 0.7 * c,
+                    background: d,
+                    borderRadius: "50% 50% 50% 50% / 60% 60% 40% 40%",
+                    opacity: 0.85,
+                  },
+                })
               : (0, i.jsx)(a.Z, {
-                component: l.E.span,
-                ...y,
-                sx: {
-                  position: "absolute",
-                  width: 1.6 * c,
-                  height: 0.5 * c,
-                  background: d,
-                  borderRadius: 1,
-                },
-              });
+                  component: l.E.span,
+                  ...y,
+                  sx: {
+                    position: "absolute",
+                    width: 1.6 * c,
+                    height: 0.5 * c,
+                    background: d,
+                    borderRadius: 1,
+                  },
+                });
       }
       function u(e) {
         let { count: t = 80, active: n = !1, spread: r = 520 } = e,
@@ -184,18 +184,18 @@
           );
         return n
           ? (0, i.jsx)(a.Z, {
-            "aria-hidden": !0,
-            sx: {
-              position: "absolute",
-              left: "50%",
-              top: "50%",
-              width: 0,
-              height: 0,
-              pointerEvents: "none",
-              zIndex: 5,
-            },
-            children: s.map((e, t) => (0, i.jsx)(p, { piece: e }, t)),
-          })
+              "aria-hidden": !0,
+              sx: {
+                position: "absolute",
+                left: "50%",
+                top: "50%",
+                width: 0,
+                height: 0,
+                pointerEvents: "none",
+                zIndex: 5,
+              },
+              children: s.map((e, t) => (0, i.jsx)(p, { piece: e }, t)),
+            })
           : null;
       }
       function f(e) {
@@ -336,16 +336,16 @@
                             x &&
                               !f &&
                               (g(!0),
-                                null == n || n(),
-                                setTimeout(() => h(!1), 1100));
+                              null == n || n(),
+                              setTimeout(() => h(!1), 1100));
                           },
                           initial: { opacity: 0, y: 16 },
                           animate: f
                             ? {
-                              opacity: 0,
-                              scale: 1.15,
-                              transition: { duration: 0.6, ease: "easeOut" },
-                            }
+                                opacity: 0,
+                                scale: 1.15,
+                                transition: { duration: 0.6, ease: "easeOut" },
+                              }
                             : { opacity: 1, y: 0 },
                           transition: { duration: 0.8, ease: "easeOut" },
                           whileHover: f ? void 0 : { scale: 1.04 },
@@ -750,26 +750,26 @@
                     background: s
                       ? "url(".concat(s, ") center/cover no-repeat")
                       : "linear-gradient(160deg, "
-                        .concat(c.D.beige, " 0%, ")
-                        .concat(c.D.warmGray, " 100%)"),
+                          .concat(c.D.beige, " 0%, ")
+                          .concat(c.D.warmGray, " 100%)"),
                     filter: "saturate(0.85) brightness(0.96)",
                   },
                 }),
                 !s &&
-                (0, i.jsx)(a.Z, {
-                  sx: {
-                    position: "absolute",
-                    inset: 0,
-                    display: "grid",
-                    placeItems: "center",
-                    color: c.D.offWhite,
-                    opacity: 0.5,
-                    fontFamily: '"Cormorant Garamond", serif',
-                    fontSize: 90,
-                    fontStyle: "italic",
-                  },
-                  children: t.charAt(0),
-                }),
+                  (0, i.jsx)(a.Z, {
+                    sx: {
+                      position: "absolute",
+                      inset: 0,
+                      display: "grid",
+                      placeItems: "center",
+                      color: c.D.offWhite,
+                      opacity: 0.5,
+                      fontFamily: '"Cormorant Garamond", serif',
+                      fontSize: 90,
+                      fontStyle: "italic",
+                    },
+                    children: t.charAt(0),
+                  }),
                 (0, i.jsx)(a.Z, {
                   sx: {
                     position: "absolute",
@@ -992,7 +992,7 @@
                         arabicName: "فرزانة",
                         role: "The Bride",
                         side: "left",
-                        image: "/images/bride.jpg",
+                        image: "/images/bride.png",
                       }),
                     }),
                     (0, i.jsx)(k.ZP, {
@@ -1069,12 +1069,12 @@
         R = n(6893);
       function T(e) {
         let {
-          width: t,
-          height: n,
-          onComplete: d,
-          children: x,
-          hint: h = "✦ Scratch to reveal ✦",
-        } = e,
+            width: t,
+            height: n,
+            onComplete: d,
+            children: x,
+            hint: h = "✦ Scratch to reveal ✦",
+          } = e,
           m = (0, o.useRef)(null),
           p = (0, o.useRef)(null),
           u = (0, o.useRef)(!1),
@@ -1142,11 +1142,11 @@
             })(i, t, n));
         }, [t, n]);
         let Z = (e) => {
-          let t = m.current.getBoundingClientRect(),
-            n = e.touches ? e.touches[0].clientX : e.clientX,
-            i = e.touches ? e.touches[0].clientY : e.clientY;
-          return { x: n - t.left, y: i - t.top };
-        },
+            let t = m.current.getBoundingClientRect(),
+              n = e.touches ? e.touches[0].clientX : e.clientX,
+              i = e.touches ? e.touches[0].clientY : e.clientY;
+            return { x: n - t.left, y: i - t.top };
+          },
           S = (e) => {
             let t = m.current.getContext("2d");
             ((t.globalCompositeOperation = "destination-out"),
@@ -1154,7 +1154,7 @@
               (t.lineCap = "round"),
               (t.lineJoin = "round"),
               f.current &&
-              (t.beginPath(),
+                (t.beginPath(),
                 t.moveTo(f.current.x, f.current.y),
                 t.lineTo(e.x, e.y),
                 t.stroke()),
@@ -1166,10 +1166,10 @@
           k = (e) => {
             y ||
               (e.preventDefault(),
-                (u.current = !0),
-                v(!0),
-                (f.current = null),
-                S(Z(e)));
+              (u.current = !0),
+              v(!0),
+              (f.current = null),
+              S(Z(e)));
           },
           z = (e) => {
             u.current && !y && (e.preventDefault(), S(Z(e)));
@@ -1231,52 +1231,52 @@
                       },
                     }),
                     !j &&
-                    (0, i.jsx)(a.Z, {
-                      component: l.E.div,
-                      initial: { opacity: 0 },
-                      animate: { opacity: [0.55, 1, 0.55] },
-                      transition: {
-                        duration: 2.4,
-                        repeat: 1 / 0,
-                        ease: "easeInOut",
-                      },
-                      sx: {
-                        position: "absolute",
-                        inset: 0,
-                        display: "grid",
-                        placeItems: "center",
-                        pointerEvents: "none",
-                        textAlign: "center",
-                      },
-                      children: (0, i.jsxs)(a.Z, {
-                        children: [
-                          (0, i.jsx)(a.Z, {
-                            component: "svg",
-                            viewBox: "0 0 64 64",
-                            sx: {
-                              width: 44,
-                              height: 44,
-                              color: c.D.deepBrown,
-                              mb: 1,
-                            },
-                            children: (0, i.jsx)("path", {
-                              fill: "currentColor",
-                              d: "M44.6 8.7c1.3-1.3 3.4-1.3 4.6 0l6.1 6.1c1.3 1.3 1.3 3.4 0 4.6L25.6 49.1c-.4.4-.9.7-1.5.8L11 52.6c-1.4.3-2.6-1-2.3-2.3l2.7-13.1c.1-.6.4-1.1.8-1.5L44.6 8.7zm-3.1 8.3 6.5 6.5 4-4-6.5-6.5-4 4z",
+                      (0, i.jsx)(a.Z, {
+                        component: l.E.div,
+                        initial: { opacity: 0 },
+                        animate: { opacity: [0.55, 1, 0.55] },
+                        transition: {
+                          duration: 2.4,
+                          repeat: 1 / 0,
+                          ease: "easeInOut",
+                        },
+                        sx: {
+                          position: "absolute",
+                          inset: 0,
+                          display: "grid",
+                          placeItems: "center",
+                          pointerEvents: "none",
+                          textAlign: "center",
+                        },
+                        children: (0, i.jsxs)(a.Z, {
+                          children: [
+                            (0, i.jsx)(a.Z, {
+                              component: "svg",
+                              viewBox: "0 0 64 64",
+                              sx: {
+                                width: 44,
+                                height: 44,
+                                color: c.D.deepBrown,
+                                mb: 1,
+                              },
+                              children: (0, i.jsx)("path", {
+                                fill: "currentColor",
+                                d: "M44.6 8.7c1.3-1.3 3.4-1.3 4.6 0l6.1 6.1c1.3 1.3 1.3 3.4 0 4.6L25.6 49.1c-.4.4-.9.7-1.5.8L11 52.6c-1.4.3-2.6-1-2.3-2.3l2.7-13.1c.1-.6.4-1.1.8-1.5L44.6 8.7zm-3.1 8.3 6.5 6.5 4-4-6.5-6.5-4 4z",
+                              }),
                             }),
-                          }),
-                          (0, i.jsx)(r.Z, {
-                            sx: {
-                              fontFamily: '"Inter", sans-serif',
-                              fontSize: 11,
-                              letterSpacing: "0.4em",
-                              color: c.D.deepBrown,
-                              textTransform: "uppercase",
-                            },
-                            children: h,
-                          }),
-                        ],
+                            (0, i.jsx)(r.Z, {
+                              sx: {
+                                fontFamily: '"Inter", sans-serif',
+                                fontSize: 11,
+                                letterSpacing: "0.4em",
+                                color: c.D.deepBrown,
+                                textTransform: "uppercase",
+                              },
+                              children: h,
+                            }),
+                          ],
+                        }),
                       }),
-                    }),
                   ],
                 }),
             }),
@@ -1284,12 +1284,12 @@
         });
       }
       let P = {
-        hidden: { opacity: 0 },
-        show: {
-          opacity: 1,
-          transition: { staggerChildren: 0.06, delayChildren: 0.1 },
+          hidden: { opacity: 0 },
+          show: {
+            opacity: 1,
+            transition: { staggerChildren: 0.06, delayChildren: 0.1 },
+          },
         },
-      },
         F = {
           hidden: { opacity: 0, y: 40, filter: "blur(8px)" },
           show: {
@@ -1472,13 +1472,13 @@
                     },
                     children: [
                       s &&
-                      (0, i.jsx)(T, {
-                        width: p ? 320 : 560,
-                        height: p ? 230 : 320,
-                        onComplete: f,
-                        hint: "Scratch to reveal",
-                        children: (0, i.jsx)(O, {}),
-                      }),
+                        (0, i.jsx)(T, {
+                          width: p ? 320 : 560,
+                          height: p ? 230 : 320,
+                          onComplete: f,
+                          hint: "Scratch to reveal",
+                          children: (0, i.jsx)(O, {}),
+                        }),
                       (0, i.jsx)(u, { active: h, count: 70, spread: 520 }),
                     ],
                   }),
@@ -2402,9 +2402,9 @@
       var en = n(8167);
       function ei() {
         let e = "https://www.google.com/maps?q=".concat(
-          d.venue.mapsQuery,
-          "&output=embed",
-        ),
+            d.venue.mapsQuery,
+            "&output=embed",
+          ),
           t = "https://maps.app.goo.gl/HVBdqEzs7HQ8mq11A?g_st=ic";
         return (0, i.jsx)(a.Z, {
           id: "location",
@@ -2547,12 +2547,12 @@
       };
       function ec() {
         let [e, t] = (0, o.useState)({
-          name: "",
-          email: "",
-          guests: "1",
-          attendance: "attending",
-          message: "",
-        }),
+            name: "",
+            email: "",
+            guests: "1",
+            attendance: "attending",
+            message: "",
+          }),
           [n, s] = (0, o.useState)(!1),
           d = (e) => t((t) => ({ ...t, [e.target.name]: e.target.value }));
         return (0, i.jsxs)(a.Z, {
@@ -2901,13 +2901,13 @@
           p = () => {
             if (l.current) return;
             let e = [
-              "scroll",
-              "wheel",
-              "touchstart",
-              "touchmove",
-              "pointerdown",
-              "keydown",
-            ],
+                "scroll",
+                "wheel",
+                "touchstart",
+                "touchmove",
+                "pointerdown",
+                "keydown",
+              ],
               t = 0,
               n = async () => {
                 let e = r.current;
