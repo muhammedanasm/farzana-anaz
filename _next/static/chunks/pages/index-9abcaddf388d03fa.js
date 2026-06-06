@@ -38,7 +38,7 @@
           },
           venue: {
             name: "Yamuna Castle Auditorium",
-            address: "Perinjanam, Kerala, India",
+            address: "Perinjanam, Kerala",
             mapsQuery: "Yamuna+Castle+Auditorium,+Perinjanam,+Kerala,+India",
           },
           events: [
