@@ -37,8 +37,8 @@
             arabicName: "أنس",
           },
           venue: {
-            name: "Al-Noor Banquet Hall",
-            address: "Down Hill, Malappuram, Kerala, India",
+            name: "Yamuna Castle Auditorium",
+            address: "Perinjanam, Kerala, India",
             mapsQuery: "Yamuna+Castle+Auditorium,+Perinjanam,+Kerala,+India",
           },
           events: [
