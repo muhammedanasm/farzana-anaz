@@ -46,8 +46,8 @@
               title: "Nikah Ceremony",
               arabic: "النكاح",
               date: "Sunday, July 12, 2026",
-              time: "5:00 PM",
-              place: "Yamuna Castle Auditorium, Perinjanam",
+              time: "11:00 AM",
+              place: "Chuloor Juma Masjid",
               description:
                 "A sacred bond witnessed in the house of Allah, with our closest family.",
             },
@@ -904,7 +904,7 @@
                           color: c.D.softBrown,
                           fontStyle: "italic",
                         },
-                        children: "Farzana",
+                        children: "Anaz",
                       }),
                     }),
                     (0, i.jsx)(l.E.div, {
@@ -938,7 +938,7 @@
                           color: c.D.softBrown,
                           fontStyle: "italic",
                         },
-                        children: "Anaz",
+                        children: "Farzana",
                       }),
                     }),
                     (0, i.jsx)(W, { sx: { mt: 4 } }),
@@ -1363,7 +1363,7 @@
                       fontWeight: 300,
                       lineHeight: 1,
                     },
-                    children: "SAT",
+                    children: "SUN",
                   }),
                 }),
                 (0, i.jsx)(a.Z, {
@@ -2836,7 +2836,7 @@
                     color: c.D.offWhite,
                     mt: 2,
                   },
-                  children: "Farzana & Anaz",
+                  children: "Anaz & Farzana",
                 }),
                 (0, i.jsx)(r.Z, {
                   variant: "h6",
