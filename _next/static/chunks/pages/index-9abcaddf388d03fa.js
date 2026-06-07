@@ -2643,7 +2643,7 @@
                     fontSize: 11,
                     letterSpacing: "0.5em",
                   },
-                  children: "07 . 12 . 2026",
+                  children: "12 . 07 . 2026",
                 }),
                 (0, i.jsx)(r.Z, {
                   sx: {
