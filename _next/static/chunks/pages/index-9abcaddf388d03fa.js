@@ -1894,7 +1894,7 @@
             .concat(c.D.warmGray, " 0%, ")
             .concat(c.D.softBrown, " 100%)"),
           label: "Moments",
-          image: "./images/groom.JPG",
+          image: "./images/groom.jpg",
         },
         {
           gradient: "linear-gradient(135deg, "
