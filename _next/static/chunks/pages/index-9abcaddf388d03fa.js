@@ -1833,7 +1833,7 @@
                       mt: 2,
                     },
                     children:
-                      "Two days, two sacred moments — your presence is the dearest blessing we could ask for.",
+                      "One day, two sacred moments — your presence is the dearest blessing we could ask for.",
                   }),
                   (0, i.jsx)(W, {}),
                 ],
@@ -1886,171 +1886,7 @@
         },
       ];
       function U() {
-        return (0, i.jsx)(a.Z, {
-          id: "story",
-          sx: {
-            position: "relative",
-            py: { xs: 12, md: 18 },
-            background: "linear-gradient(180deg, "
-              .concat(c.D.offWhite, " 0%, ")
-              .concat(c.D.ivory, " 100%)"),
-          },
-          children: (0, i.jsxs)(y.Z, {
-            maxWidth: "md",
-            children: [
-              (0, i.jsxs)(a.Z, {
-                sx: { textAlign: "center", mb: { xs: 6, md: 10 } },
-                children: [
-                  (0, i.jsx)(r.Z, {
-                    variant: "h6",
-                    sx: { color: c.D.gold, fontSize: 11 },
-                    children: "Our journey",
-                  }),
-                  (0, i.jsx)(r.Z, {
-                    variant: "h2",
-                    sx: {
-                      fontStyle: "italic",
-                      color: c.D.softBrown,
-                      fontSize: { xs: 44, md: 72 },
-                      mt: 1.5,
-                    },
-                    children: "The story of us",
-                  }),
-                  (0, i.jsx)(r.Z, {
-                    className: "arabic",
-                    sx: {
-                      color: c.D.warmGray,
-                      mt: 1,
-                      fontSize: { xs: 18, md: 22 },
-                    },
-                    children: "قصة حب كتبها القدر",
-                  }),
-                  (0, i.jsx)(W, {}),
-                ],
-              }),
-              (0, i.jsxs)(a.Z, {
-                sx: { position: "relative" },
-                children: [
-                  (0, i.jsx)(a.Z, {
-                    sx: {
-                      position: "absolute",
-                      left: { xs: 24, md: "50%" },
-                      top: 0,
-                      bottom: 0,
-                      width: "1px",
-                      background: "linear-gradient(180deg, transparent 0%, "
-                        .concat(c.D.gold, "88 10%, ")
-                        .concat(c.D.gold, "88 90%, transparent 100%)"),
-                      transform: { md: "translateX(-0.5px)" },
-                    },
-                  }),
-                  X.map((e, t) => {
-                    let n = t % 2 == 0;
-                    return (0, i.jsxs)(
-                      a.Z,
-                      {
-                        component: l.E.div,
-                        initial: { opacity: 0, y: 60 },
-                        whileInView: { opacity: 1, y: 0 },
-                        viewport: { once: !0, margin: "-100px" },
-                        transition: { duration: 0.9, ease: [0.2, 0.8, 0.2, 1] },
-                        sx: {
-                          position: "relative",
-                          mb: { xs: 6, md: 8 },
-                          pl: { xs: 7, md: 0 },
-                        },
-                        children: [
-                          (0, i.jsx)(a.Z, {
-                            sx: {
-                              position: "absolute",
-                              left: { xs: 18, md: "50%" },
-                              top: 12,
-                              width: 14,
-                              height: 14,
-                              background: c.D.offWhite,
-                              border: "1.5px solid ".concat(c.D.gold),
-                              transform: {
-                                xs: "rotate(45deg)",
-                                md: "translateX(-50%) rotate(45deg)",
-                              },
-                              zIndex: 2,
-                            },
-                          }),
-                          (0, i.jsxs)(k.ZP, {
-                            container: !0,
-                            spacing: { xs: 2, md: 6 },
-                            alignItems: "center",
-                            children: [
-                              (0, i.jsxs)(k.ZP, {
-                                item: !0,
-                                xs: 12,
-                                md: 6,
-                                sx: {
-                                  order: { xs: 1, md: n ? 1 : 2 },
-                                  textAlign: {
-                                    xs: "left",
-                                    md: n ? "right" : "left",
-                                  },
-                                },
-                                children: [
-                                  (0, i.jsx)(r.Z, {
-                                    variant: "h6",
-                                    sx: {
-                                      color: c.D.gold,
-                                      fontSize: 10,
-                                      letterSpacing: "0.5em",
-                                    },
-                                    children: e.year,
-                                  }),
-                                  (0, i.jsx)(r.Z, {
-                                    sx: {
-                                      fontFamily: '"Cormorant Garamond", serif',
-                                      fontSize: { xs: 30, md: 40 },
-                                      fontStyle: "italic",
-                                      color: c.D.softBrown,
-                                      mt: 0.5,
-                                    },
-                                    children: e.title,
-                                  }),
-                                  (0, i.jsx)(r.Z, {
-                                    className: "arabic",
-                                    sx: {
-                                      color: c.D.warmGray,
-                                      fontSize: 18,
-                                      mt: 0.5,
-                                    },
-                                    children: e.arabic,
-                                  }),
-                                ],
-                              }),
-                              (0, i.jsx)(k.ZP, {
-                                item: !0,
-                                xs: 12,
-                                md: 6,
-                                sx: { order: { xs: 2, md: n ? 2 : 1 } },
-                                children: (0, i.jsx)(r.Z, {
-                                  sx: {
-                                    color: c.D.warmGray,
-                                    fontSize: { xs: 15, md: 16 },
-                                    lineHeight: 1.8,
-                                    maxWidth: 360,
-                                    ml: { md: n ? 0 : "auto" },
-                                  },
-                                  children: e.text,
-                                }),
-                              }),
-                            ],
-                          }),
-                        ],
-                      },
-                      e.year,
-                    );
-                  }),
-                ],
-              }),
-            ],
-          }),
-        });
+        return null;
       }
       let J = [
         {
@@ -2058,28 +1894,7 @@
             .concat(c.D.warmGray, " 0%, ")
             .concat(c.D.softBrown, " 100%)"),
           label: "Moments",
-          image: "./images/moments.JPG",
-        },
-        {
-          gradient: "linear-gradient(160deg, "
-            .concat(c.D.beige, " 0%, ")
-            .concat(c.D.rose, " 80%)"),
-          label: "Quiet days",
-          image: "/images/album-2.jpg",
-        },
-        {
-          gradient: "linear-gradient(135deg, "
-            .concat(c.D.softBrown, " 0%, ")
-            .concat(c.D.deepBrown, " 100%)"),
-          label: "Promises",
-          image: "./images/album-5.jpg",
-        },
-        {
-          gradient: "linear-gradient(160deg, "
-            .concat(c.D.ivory, " 0%, ")
-            .concat(c.D.beige, " 100%)"),
-          label: "Together",
-          image: "/images/album-4.jpg",
+          image: "./images/groom.JPG",
         },
         {
           gradient: "linear-gradient(135deg, "
@@ -2088,12 +1903,13 @@
           label: "Family",
           image: "./images/family.JPG",
         },
+
         {
           gradient: "linear-gradient(135deg, "
-            .concat(c.D.deepBrown, " 0%, ")
-            .concat(c.D.softBrown, " 80%)"),
-          label: "Du’a",
-          image: "./images/dua.JPG",
+            .concat(c.D.softBrown, " 0%, ")
+            .concat(c.D.deepBrown, " 100%)"),
+          label: "Promises",
+          image: "./images/moments.JPG",
         },
       ];
       function K(e) {
@@ -2210,7 +2026,9 @@
           id: "gallery",
           sx: {
             position: "relative",
-            py: { xs: 12, md: 18 },
+            // py: { xs: 12, md: 18 },
+            pt: 0,
+            pb: { xs: 12, md: 18 },
             background: c.D.offWhite,
           },
           children: (0, i.jsxs)(y.Z, {
@@ -2232,7 +2050,7 @@
                       fontSize: { xs: 44, md: 72 },
                       mt: 1.5,
                     },
-                    children: "Moments & memories",
+                    children: "Moments",
                   }),
                   (0, i.jsx)(W, {}),
                 ],
@@ -2240,39 +2058,18 @@
               (0, i.jsxs)(k.ZP, {
                 container: !0,
                 spacing: { xs: 2, md: 3 },
-                children: [
-                  (0, i.jsx)(K, { tile: J[0], span: 6, height: 420, delay: 0 }),
-                  (0, i.jsx)(K, {
-                    tile: J[1],
-                    span: 6,
-                    height: 420,
-                    delay: 0.1,
-                  }),
-                  (0, i.jsx)(K, {
-                    tile: J[2],
-                    span: 4,
-                    height: 300,
-                    delay: 0.2,
-                  }),
-                  (0, i.jsx)(K, {
-                    tile: J[3],
-                    span: 4,
-                    height: 300,
-                    delay: 0.3,
-                  }),
-                  (0, i.jsx)(K, {
-                    tile: J[4],
-                    span: 4,
-                    height: 300,
-                    delay: 0.4,
-                  }),
-                  (0, i.jsx)(K, {
-                    tile: J[5],
-                    span: 12,
-                    height: 360,
-                    delay: 0.5,
-                  }),
-                ],
+                children: J.map((t, e) =>
+                  (0, i.jsx)(
+                    K,
+                    {
+                      tile: t,
+                      span: [6, 6, 4, 4, 4, 12][e] ?? 12,
+                      height: [420, 420, 300, 300, 300, 360][e] ?? 320,
+                      delay: 0.1 * e,
+                    },
+                    e,
+                  ),
+                ),
               }),
             ],
           }),
